@@ -141,7 +141,8 @@
    '("w j" . windmove-down)
    '("w k" . windmove-up)
    '("w v" . split-window-right)
-   '("w d" . delete-window))
+   '("w d" . delete-window)
+   '("r k" . helm-show-kill-ring))
 
 (meow-define-keys
    'normal
@@ -149,5 +150,4 @@
 
 
 (use-package rotate)
-(use-package vterm)
 
